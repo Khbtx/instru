@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Trans. Instrumin</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      margin-top: 50px;
+      background-color: #fff;
+    }
+
+    .badge {
+      position: relative;
+      display: inline-block;
+      background: #f7b500;
+      clip-path: polygon(
+        50% 0%, 61% 19%, 81% 19%, 69% 35%, 80% 50%, 69% 65%, 
+        81% 81%, 61% 81%, 50% 100%, 39% 81%, 19% 81%, 31% 65%, 
+        20% 50%, 31% 35%, 19% 19%, 39% 19%
+      );
+      width: 200px;
+      height: 200px;
+      margin-bottom: 50px;
+    }
+
+    .badge-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      background: white;
+      padding: 10px 30px;
+      font-weight: bold;
+      font-style: italic;
+      border: 2px solid #f7b500;
+      clip-path: polygon(
+        0 50%, 15% 0%, 85% 0%, 100% 50%, 85% 100%, 15% 100%
+      );
+    }
+
+    .decorated-box {
+      border-top: 2px solid #0099cc;
+      border-bottom: 2px solid #0099cc;
+      display: inline-block;
+      padding: 10px 20px;
+      font-style: italic;
+      font-weight: bold;
+      margin-top: 20px;
+    }
+
+    .decor {
+      color: #0099cc;
+      font-size: 24px;
+      margin: 10px 0;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="badge">
+    <div class="badge-text">TRANS.<br>INSTRUMIN</div>
+  </div>
+
+  <div class="decor">❧ ❦ ❧</div>
+  <div class="decorated-box">PLANIFICA TUS VIAJES</div>
+  <div class="decor">❧ ❦ ❧</div>
+<p>
+<h1> VOLVEREMOS PRONTO <H1>
+<p/>
+</body>
+</html>
